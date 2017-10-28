@@ -36,7 +36,7 @@ class Home extends Component {
             <Featured slides={this.state.home.slider} />
             <Subscriptions />
             <Blocks blocks={this.state.home.blocks}/>
-            <Poll />
+            <Poll/>
           </div> 
         );
     }
