@@ -220,3 +220,41 @@ footer {
     opacity: 0;
     transition: all 500ms ease-in-out;
 }
+
+/*=================POLL SECTION=============*/
+
+.home_poll {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.poll_container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.poll_container .poll_item {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.poll_container .poll_item img {
+    width: 80%;
+}
+
+.poll_container .poll_item div {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+}
+
+.vote_btn {
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background: #00224D;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
